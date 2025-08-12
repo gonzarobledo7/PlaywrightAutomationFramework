@@ -1,0 +1,15 @@
+# Node / Playwright
+node_modules/
+playwright-report/
+test-results/
+.playwright/
+playwright/.cache/
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Env (si lo usás)
+.env
