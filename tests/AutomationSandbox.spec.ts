@@ -5,7 +5,7 @@ import { SandboxPage } from './Pages/SandboxPage';
     let browser: Browser;
     let page: Page;
 
-    let textToSend = 'Estoy aprendiendo Playwright 🚀';
+    let textToSend = 'Estoy aprendiendo Playwright 🚀!';
 
     test.describe('Acciones en el Automation Sandbox', () => {
         test('Click en Boton ID Dinamico', async ({ page }) => {
